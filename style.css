@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    border: 1px solid black;
+    margin: 10px;
+}
+.block {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 100px;
+    font-size: 16px;
+}
+.w120 {
+    width: 210px;
+    float: right;
+} 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.center {
+    padding-right: 600px;
+}  
+.h100 {
+    height: 110px;
+} 
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
